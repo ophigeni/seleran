@@ -25,6 +25,16 @@ source venv/bin/activate
 
 bash 1.txt
 
+# Tips
+
+edit file text with: nano 1.txt
+
+quit from ENV: deactivate
+
+
+
+
+
 
 
 
