@@ -32,8 +32,6 @@ sudo apt install -f ./google-chrome-stable_current_amd64.deb -y
 
 ################################################
 
-cp seleran/* seleran/tests/
-
 cd tests
 
 apt-get install python3-venv -y
@@ -43,3 +41,7 @@ python3 -m venv venv
 source venv/bin/activate
 
 pip install selenium webdriver-manager
+
+cp /seleran/*.py /seleran/tests/
+cp /seleran/*.txt /seleran/tests/
+
