@@ -23,3 +23,15 @@ cd tests
 
 source venv/bin/activate
 
+bash 1.txt
+
+
+
+
+
+
+
+
+
+
+
