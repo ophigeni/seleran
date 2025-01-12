@@ -4,6 +4,10 @@ docker run --rm -ti ophigeni/raw:xfce
 
 docker run --rm -ti ophigeni/raw:mate
 
+# Quick Shoot
+
+apt-get update && apt-get install git -y && git clone https://github.com/ophigeni/seleran && cd seleran && bash install.txt && cd tests && source venv/bin/activate && bash 1.txt
+
 
 # Pre
 
